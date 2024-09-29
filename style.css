@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blue;
+    color: white;
+ padding: 20px;
+ text-align: center;
+
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#products{
+display: flex;
+justify-content: space-around;
+
+}
+.product{
+    border: 1px solid;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+button{
+    background-color: black;
+    border-radius: 5pX;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+}
+    
+
